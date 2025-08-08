@@ -202,5 +202,27 @@
       </div>
     </div>
 </footer>
+
+     <script>
+        const heroSection = document.querySelector('.hero-section');
+        const images = [
+           'amazon_hero.jpg',
+           'amazon_hero2.jpg',
+           'amazon_hero3.jpg',
+           'amazon_hero4.jpg',
+           'amazon_hero5.jpg',
+           'amazon_hero6.jpg',
+
+          ];
+
+  let index = 0;
+
+  setInterval(() => {
+    index = (index + 1) % images.length;
+    heroSection.style.backgroundImage = `url('${images[index]}')`;
+  }, 5000);
+</script>
+
+
 </body>
 </html>

@@ -165,9 +165,11 @@ span{
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    transition: background-image 0.5s ease-in-out;
 }
 
 .hero-msg{
+  position: absolute;
   background-color: white;
   color: black;
   height: 40px;
@@ -177,7 +179,7 @@ span{
   font-size: 0.85rem;
   width: 90%;
   margin-bottom: 30px;
-}
+} 
 
 .hero-msg a{
   color: #007185;
