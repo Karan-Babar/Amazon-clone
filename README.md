@@ -31,3 +31,30 @@ CSS3 – Styling and layout (Flexbox/Grid)
 
 (Optional: Add screenshots of your Amazon clone here)
 
+
+⚙️ How the Project Works:
+
+HTML is used to create the structure of the website
+
+CSS is used for:
+
+Layout design
+
+Colors and fonts
+
+Flexbox/Grid positioning
+
+Hover effects
+
+This project focuses only on frontend UI, not backend functionality.
+
+
+🎯 Purpose of This Project:
+
+Practice HTML & CSS
+
+Improve layout and styling skills
+
+Learn real-world website design
+
+Build confidence in frontend development
